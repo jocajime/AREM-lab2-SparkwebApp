@@ -15,6 +15,10 @@ public class App
 {
     public static void main(String[] args) {
         port(getPort());
+        get("/",((request, response) -> {
+            response.redirect("/Calc");
+            return null;
+        }));
         get("/Calc", (request, response) -> basePage());
         get("/Results",(request, response) -> resultado(request));
     }
