@@ -23,7 +23,7 @@ public class IteratorLinked<E> implements Iterator<E> {
 
     /**
      * cambiar el nodo de iteracion actual
-     * @param actual
+     * @param actual el nodo actual
      */
     public void setActual(Node actual) {
         this.actual = actual;
@@ -31,7 +31,7 @@ public class IteratorLinked<E> implements Iterator<E> {
 
     /**
      * retorna si hay un elemento siguiente
-     * @return
+     * @return existe un elemento siguiente
      */
     @Override
     public boolean hasNext() {
@@ -44,8 +44,8 @@ public class IteratorLinked<E> implements Iterator<E> {
     }
 
     /**
-     * el elemento siguiente al actual
-     * @return
+     *
+     * @return el elemento siguiente al actual
      */
     @Override
     public E next() {
