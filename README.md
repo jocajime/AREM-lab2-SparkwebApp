@@ -1,5 +1,7 @@
 
-# StatCalc - WebApp
+# StatCalc - WebApp 
+
+[![jocajime](https://circleci.com/gh/jocajime/AREM-lab2-SparkwebApp.svg?style=svg)](https://app.circleci.com/pipelines/github/jocajime/AREM-lab2-SparkwebApp)
 
 Implementacion de una calculadora para la media y la desviacion estandar por medio de una aplicacion web basica. 
 
